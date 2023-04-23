@@ -1,4 +1,3 @@
-# Application Resume Editor
 ## Functionality
 - edited like a regular doc editor
 - can export as

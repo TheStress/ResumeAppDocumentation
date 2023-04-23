@@ -1,10 +1,10 @@
-# Purpose
+## Purpose
 - Refer to [[Methodology]]
 - The blocks should be the starting point of editing a resume so when the user needs to edit something they should start here and the changes should propagate out to [[Field Resume]] that contain the block that was changed
-# Features
+## Features
 - Contains information for a single resume item
 - Any edits to a block sync with ALL [[Field Resume]](s) that contain that block
-# Specifics
+## Specifics
 - Contact
 	- name
 	- emails

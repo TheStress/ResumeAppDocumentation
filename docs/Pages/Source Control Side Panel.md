@@ -1,2 +1,2 @@
-# Functionality
+## Functionality
 - displays the different versions of 
