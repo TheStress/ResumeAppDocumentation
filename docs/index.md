@@ -1,11 +1,15 @@
-# Obsidian Notes
+# Start Here
+## [[Elevator Pitch]]
 
-Publish your public notes with MkDocs
+## [[Methodology]]
 
-## Hello World!
+## Pages
+- [[Landing Page]]
+- [[Login and Signup]]
+- [[Resume Main Page]]
+	- [[Field Resume Editor]]
+		- [[Application Resume Editor]]
+- [[Block Editor]]
+- [[Application Tracker]]
 
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+[[Feature List]]

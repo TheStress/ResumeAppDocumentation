@@ -1,6 +1,7 @@
-# Purpose
+# Application Tracker
+## Purpose
 - Since our source control keep close track of different versions of resumes we should allow users to track stats for different versions of their resume so the user can see what resumes work better
-# Functionality
+## Functionality
 - tracks applications in a spread sheet
 - user enters data manually
 - we have pre determined columns 
