@@ -1,0 +1,45 @@
+# Purpose
+- Refer to [[Methodology]]
+- The blocks should be the starting point of editing a resume so when the user needs to edit something they should start here and the changes should propagate out to [[Field Resume]] that contain the block that was changed
+# Features
+- Contains information for a single resume item
+- Any edits to a block sync with ALL [[Field Resume]](s) that contain that block
+# Specifics
+- Contact
+	- name
+	- emails
+	- phone number
+	- list of other websites (for example)
+		- linked in 
+		- github
+		- portfolio website
+- Education
+	- name
+	- dates
+	- degree
+	- relevant course work
+- Projects
+	- name
+	- position
+	- dates
+	- description / bullet points
+- Work Experience
+	- company name
+	- position
+	- dates
+	- description / bullet points
+- Extra curricular
+	- organization
+	- position
+	- dates
+	- description
+- Skills
+	- hard skills
+	- soft skills
+	- technologies
+	- languages
+## Possible Format
+- primary
+- secondary
+- dates
+- descriptions
