@@ -1,15 +1,18 @@
 # Start Here
-## [[Elevator Pitch]]
+Notes: 
+- I recommend reading things from top down.
+- In all images I am using "|" to show that the users cursor is there
+## ![[Elevator Pitch]]
 
-## [[Methodology]]
+## ![[Methodology]]
 
 ## Pages
 - [[Landing Page]]
 - [[Login and Signup]]
+- [[Block Editor]]
 - [[Resume Main Page]]
 	- [[Field Resume Editor]]
 		- [[Application Resume Editor]]
-- [[Block Editor]]
 - [[Application Tracker]]
 
 [[Work Needed (for me to keep track)]]

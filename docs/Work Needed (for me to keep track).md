@@ -5,3 +5,6 @@
 - is going to the [[Field Resume Editor]] working?
 - is naviating working too?
 - showing recent resumes isnt a priority
+## [[Block Editor]]
+- adding blocks
+- saving the style, text, and section for the [[Field Resume Editor]]
