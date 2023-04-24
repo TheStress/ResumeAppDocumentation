@@ -7,4 +7,7 @@
 - to explain what our app does on this page with a section for
 	- [[Elevator Pitch]]
 	- [[Methodology]]
+![[Pasted image 20230424110516.png]]
 - allows you to navigate to the [[Login and Signup]]
+
+![[Pasted image 20230424110357.png]]
