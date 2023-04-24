@@ -2,9 +2,9 @@
 Notes: 
 - I recommend reading things from top down.
 - In all images I am using "|" to show that the users cursor is there
-## ![[Elevator Pitch]]
+## [[Elevator Pitch]]
 
-## ![[Methodology]]
+## [[Methodology]]
 
 ## Pages
 - [[Landing Page]]
