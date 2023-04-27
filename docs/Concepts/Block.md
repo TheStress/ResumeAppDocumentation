@@ -38,8 +38,3 @@
 	- soft skills
 	- technologies
 	- languages
-## Possible Format
-- primary
-- secondary
-- dates
-- descriptions

@@ -1,5 +1,9 @@
-## First Pages
-- styling the [[Landing Page]] "Our Approach Section" 
+## [[Landing Page]]
+- styling the "Our Approach Section" and everything else 
+## [[Login and Signup]]
+- I assume all the authentication stuff is done?
+- Going from login to [[Resume Main Page]]
+- Going from sign up to [[Block Editor]]
 - switching between [[Login and Signup]] using the buttons on the top right 
 ## [[Resume Main Page]]
 - is going to the [[Field Resume Editor]] working?
