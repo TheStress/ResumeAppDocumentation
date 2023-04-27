@@ -1,3 +1,5 @@
+## Purpose
+- 
 ## Functionality
 - edited like a regular doc editor
 - can export as

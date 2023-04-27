@@ -15,8 +15,8 @@ Notes:
 	- [[Field Resume Editor]]
 		- [[Application Resume Editor]]
 - [[Application Tracker]]
-
+## Implementation
 
 ## Other/Old Stuff
-[[Block Editor (Section Version)]]
-[[Work Needed (for me to keep track)]]
+- [[Block Editor (Section Version)]]
+- [[Work Needed (for me to keep track)]]
