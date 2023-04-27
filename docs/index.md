@@ -2,6 +2,7 @@
 Notes: 
 - I recommend reading things from top down.
 - In all images I am using "|" to show that the users cursor is there
+
 ## [[Elevator Pitch]]
 
 ## [[Methodology]]
@@ -15,4 +16,7 @@ Notes:
 		- [[Application Resume Editor]]
 - [[Application Tracker]]
 
+
+## Other/Old Stuff
+[[Block Editor (Section Version)]]
 [[Work Needed (for me to keep track)]]
