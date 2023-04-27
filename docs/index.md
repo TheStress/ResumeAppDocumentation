@@ -15,6 +15,12 @@ Notes:
 	- [[Field Resume Editor]]
 		- [[Application Resume Editor]]
 - [[Application Tracker]]
+
+## Panels
+- [[Source Control Side Panel]]
+- [[Application Tracking Panel]]
+- Block Side Panel (see [[Field Resume Editor]])
+
 ## Implementation
 
 ## Other/Old Stuff
