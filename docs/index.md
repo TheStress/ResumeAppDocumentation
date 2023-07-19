@@ -2,12 +2,21 @@
 Notes: 
 - I recommend reading things from top down.
 - In all images I am using "|" to show that the users cursor is there
+![[Methodology]]
 
 ## [[Elevator Pitch]]
 
 ## [[Methodology]]
+![[test.canvas|test]]
 
-[[test.canvas|test]]
+```
+testing
+testing
+```
+
+```plantuml
+class test
+```
 ## Pages
 - [[Landing Page]]
 - [[Login and Signup]]
