@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"1445b8aea6b74d61","x":-229,"y":-203,"width":250,"height":60,"type":"text","text":"testing"},
+		{"id":"fd34194c78cbd6f6","x":-340,"y":40,"width":580,"height":340,"type":"text","text":"![[Methodology]]"}
+	],
+	"edges":[]
+}

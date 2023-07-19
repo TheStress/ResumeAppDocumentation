@@ -7,6 +7,7 @@ Notes:
 
 ## [[Methodology]]
 
+[[test.canvas|test]]
 ## Pages
 - [[Landing Page]]
 - [[Login and Signup]]
