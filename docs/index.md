@@ -20,3 +20,9 @@ Notes:
 - [[Copies Side Panel]]
 - [[Application Tracking Panel]]
 - [[Blocks Side Panel]]
+
+## Ideas
+- latex integration
+- blocks
+	- 
+	- variation of blocks

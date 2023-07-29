@@ -8,3 +8,4 @@
 - Delete existing blocks
 ### Search Bar
 - search should be based on the content and tags
+### Tags (not important right now, can be done later)
