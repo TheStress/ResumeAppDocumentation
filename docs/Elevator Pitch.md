@@ -1,3 +1,1 @@
-- The general advice that is given in the job search is that you should tailor make  your resume for each job posting this can easily become a logistical nightmare with hundreds of job applications and different versions, different fields, and different companies, so our solution is a form of Resume Source Control
-
-[[Class Diagram]]
+- The general advice that is given in the job search is that you should tailor make your resume for each job posting this can easily become a logistical nightmare with hundreds of job applications and different versions, different fields, and different companies, so our solution is a form of Resume Source Control

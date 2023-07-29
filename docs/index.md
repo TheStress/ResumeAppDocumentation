@@ -12,17 +12,11 @@ Notes:
 - [[Login and Signup]]
 - [[Block Editor]]
 - [[Resume Main Page]]
-	- [[Field Resume Editor]]
-		- [[Application Resume Editor]]
+- [[Document Editor]]
 - [[Application Tracker]]
+- [[Job Posting Parser]]
 
 ## Panels
-- [[Source Control Side Panel]]
+- [[Copies Side Panel]]
 - [[Application Tracking Panel]]
-- Block Side Panel (see [[Field Resume Editor]])
-
-## Implementation
-
-## Other/Old Stuff
-- [[Block Editor (Section Version)]]
-- [[Work Needed (for me to keep track)]]
+- [[Blocks Side Panel]]
