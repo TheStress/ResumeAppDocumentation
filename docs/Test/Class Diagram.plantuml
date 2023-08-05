@@ -1,0 +1,157 @@
+```plantuml
+@startuml test
+'note "Not defined well yet" as ND
+frame TextDocumentData {
+	class Text <<DataStructure>> {
+		string text
+		string font
+		float textSize
+		string style
+	}
+
+	class Blocks {
+		string tags
+	}
+
+	class TextDocument <<DataStructure>> {
+		Text[] text
+		string copyDate
+	}
+
+	class Document {
+		TextDocument mostRecentDocument
+		TextDocument[] documentCopies
+		
+		OpenDocument()
+	}
+}
+
+frame DataBaseInterface {
+	class DataBaseController {
+		PostDocument()
+		PostBlock()
+	}
+	note "When updating the text of Blocks it should sync across all blocks" as BlockNote
+}
+
+database DataBase {
+}
+
+frame ResumeMainPageCoreLogic {
+	class ResumeMainPage {
+		Document[] documents
+
+		SetDocuments(Document[] _documents)
+	}
+	
+	class ResumeMainPageView {
+		OpenDocument()
+	}
+
+	class ResumeMainPageController {
+		OpenDocuments(Document[] documents)
+	}
+
+}
+
+frame TextEditorCoreLogic {
+	class TextEditor {
+		Document document
+
+		SetCurrentDocument(Document _document)
+	}
+
+	class TextEditorView {
+		Document document
+
+		NotifyOnUpdate()
+	}
+	
+	class TextEditorController {
+		OpenDocument(Document document)
+	}
+}
+
+frame TextEditorConverter {
+	class TextEditorConverterView {
+
+	}
+	class TextEditorConverterController {
+
+	}
+
+}
+
+frame TextEditorLibrary {
+	
+}
+
+frame BlockEditorCoreLogic {
+	class BlockEditor {
+		Document document
+
+		SetCurrentDocument(Document _document)
+	}
+
+	class BlockEditorView {
+		Document document
+
+		NotifyOnUpdate()
+	}
+	
+	class BlockEditorController {
+		OpenDocument(Document document)
+	}
+}
+
+frame BlockEditorConverter {
+	class BlockEditorConverterView {
+
+	}
+	BlockEditorConverterView ..> BlockEditorView : uses
+	class BlockEditorConverterController {
+
+	}
+
+}
+
+Blocks --> Text : inherits	
+TextDocument ..> Text : uses 
+Document ..> TextDocument : uses
+
+DataBaseController ..> DataBase : uses
+BlockNote --> DataBaseController
+
+ResumeMainPage ..> Document : uses
+ResumeMainPage -u-> ResumeMainPageView : NotifyOnChange()
+ResumeMainPageView ..> ResumeMainPage : uses
+ResumeMainPageView ..> TextEditorController : uses
+ResumeMainPageController ..> ResumeMainPage : uses
+ResumeMainPageController ..> DataBaseController : uses
+
+TextEditor ..> Document : uses
+TextEditor -u-> TextEditorView : NotifyOnChange()
+TextEditorView ..> TextEditor : uses
+TextEditorController ..> TextEditor : uses
+TextEditorController ..> DataBaseController : uses
+
+TextEditorConverterView .u.> TextEditorLibrary : uses
+TextEditorConverterController .u.> TextEditorLibrary  : uses
+TextEditorConverterView ..> TextEditorView : uses
+TextEditorConverterController ..> TextEditorController :uses
+' class CopySidePanelDisplay {
+' 	Document document;	
+
+' 	MakeCopy();
+' 	NotifyOnUpdate(); // Observing TextEditor, updates display
+' 	SetTextEditorDocument(TextDocument textDocument);
+' }
+' CopySidePanelDisplay ..> TextEditor : uses
+
+
+'class BlocksSidePanel {
+'	Text[] blocks;
+'}
+
+@enduml
+```
