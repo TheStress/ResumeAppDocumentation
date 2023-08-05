@@ -1,0 +1,17 @@
+@startuml Overall
+
+class test {
+
+}
+test ..> test : uses
+
+
+@enduml
+
+@startuml test
+
+class yuh {
+
+}
+
+@enduml
