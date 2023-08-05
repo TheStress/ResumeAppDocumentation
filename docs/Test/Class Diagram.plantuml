@@ -1,6 +1,8 @@
+## Code
 ```plantuml
-@startuml test
-'note "Not defined well yet" as ND
+@startuml MainClasses
+
+
 frame TextDocumentData {
 	class Text <<DataStructure>> {
 		string text
@@ -108,12 +110,15 @@ frame BlockEditorConverter {
 	class BlockEditorConverterView {
 
 	}
-	BlockEditorConverterView ..> BlockEditorView : uses
 	class BlockEditorConverterController {
 
 	}
 
 }
+
+
+note " 'Converters' are used for us to interface with any library's data and structure" as ConverterNote
+note "The general logic uses the MVC model, where the controller changes the data and the view displays that data. that moved up the" as GeneralLogic
 
 Blocks --> Text : inherits	
 TextDocument ..> Text : uses 
@@ -127,7 +132,7 @@ ResumeMainPage -u-> ResumeMainPageView : NotifyOnChange()
 ResumeMainPageView ..> ResumeMainPage : uses
 ResumeMainPageView ..> TextEditorController : uses
 ResumeMainPageController ..> ResumeMainPage : uses
-ResumeMainPageController ..> DataBaseController : uses
+ResumeMainPageController .d.> DataBaseController : uses
 
 TextEditor ..> Document : uses
 TextEditor -u-> TextEditorView : NotifyOnChange()
@@ -139,6 +144,19 @@ TextEditorConverterView .u.> TextEditorLibrary : uses
 TextEditorConverterController .u.> TextEditorLibrary  : uses
 TextEditorConverterView ..> TextEditorView : uses
 TextEditorConverterController ..> TextEditorController :uses
+
+BlockEditor ..> Blocks : uses
+BlockEditor -u-> BlockEditorView : NotifyOnChange()
+BlockEditorView ..> BlockEditor : uses
+BlockEditorController ..> BlockEditor : uses
+BlockEditorController ..> DataBaseController : uses
+
+BlockEditorConverterView .u.> TextEditorLibrary : uses
+BlockEditorConverterController .u.> TextEditorLibrary  : uses
+BlockEditorConverterView ..> BlockEditorView : uses
+BlockEditorConverterController ..> BlockEditorController :uses
+
+
 ' class CopySidePanelDisplay {
 ' 	Document document;	
 
